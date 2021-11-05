@@ -1,45 +1,54 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="お風呂あがりにアイスを食べるか？"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「お風呂あがりにアイスを食べるか？」[l][r]
 
-メロスは激怒した。[l][r]
+難産だった実験レポートが終わった達成感から、ひさしぶりに長湯をしてしまった。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+少しのぼせて体も温まり、なんだかアイスが食べたい気持ちだ。[l][r]
 
-(中略)[l][r]
+冷凍庫を開けるとジャンボモナカが入っていた。[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+しかしここで思い出した。レポート作成中に、やけになってカップ麺をたべてしまったことを。[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+いやでも今回のレポートはたくさん頭も使ったし、さっきお風呂でたくさん汗もかいたしセーフ？[l][r]
+
+待て待て、授業が始まってから忙しくて最近筋トレできてないし、怖くて体重計にものってないよね？[l][r]
+
+どうしよう・・・[l][r]
+
+
+[link target=*tag_monaka] →食べる　[endlink][r]
+[link target=*tag_not] →やめておく [endlink][r]
 [s]
 
-*tag_sleep
+*tag_monaka
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=monaka.png time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+ジャンボモナカはおいしかった。[l][r]
+やる気が上がった。[l][r]
+太った。[l][r]
+満腹感から早々に寝た。[r]
 
-【 BAD END 】[l][cm]
+【 BAD END? 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_not
 
-[bg storage=run.jpg time=500]
+[bg storage=kintore.png time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+自己肯定感があがった[l][r]
+そのままついでに筋トレもした。[l][r]
+明日も頑張れる気がした。[r]
 
 【 GOOD END 】[l][cm]
 
